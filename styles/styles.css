@@ -1,0 +1,38 @@
+/* Limit the width of the main content area */
+main {
+  max-width: 840px;
+}
+
+/* Style the profile image inside main only */
+main img {
+  width: 150px;
+  height: auto;
+}
+
+/* Remove padding from all paragraphs */
+p {
+  padding: 0;
+}
+
+/* Style the country/state aside section */
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+}
+
+/* Style only images inside the aside */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 1rem;
+  border-top: 1px solid #000;
+  text-align: center;
+}
