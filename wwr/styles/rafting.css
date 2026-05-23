@@ -1,0 +1,144 @@
+/* Define reusable colors and fonts */
+:root {
+  --primary-color: #0b3954;
+  --secondary-color: #087e8b;
+  --accent1-color: #bfd7ea;
+  --accent2-color: #ff5a5f;
+  --heading-font: Georgia, serif;
+  --body-font: Arial, sans-serif;
+}
+
+/* Reset default spacing for consistent layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the whole page */
+body {
+  font-family: var(--body-font);
+  color: var(--primary-color);
+}
+
+/* Limit and center the page content */
+header,
+main,
+footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Style headings */
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Add basic spacing */
+nav,
+p,
+section,
+article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Style the header layout */
+header {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: center;
+  background-color: var(--accent1-color);
+}
+
+/* Style the logo */
+header img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+
+/* Style the navigation menu */
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style navigation links */
+header nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Position hero children over the image */
+.hero {
+  position: relative;
+}
+
+/* Make hero image fill the container */
+.hero > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Position main heading over hero image */
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  opacity: 0.8;
+}
+
+/* Position article box over hero image */
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
+  background-color: rgb(255 255 255 / 0.85);
+  padding: 16px;
+}
+
+/* Style client image inside hero article */
+.hero article img {
+  float: right;
+  width: 125px;
+  height: auto;
+  margin-left: 16px;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 10px #333;
+}
+
+/* Style content sections */
+section {
+  background-color: var(--accent1-color);
+}
+
+/* Style the footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--primary-color);
+  margin-top: 20px;
+}
+
+/* Remove underline from social media image links */
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* Style social media icons */
+.socialmedia img {
+  width: 32px;
+  height: auto;
+}
