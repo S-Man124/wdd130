@@ -104,7 +104,7 @@ header nav a {
   bottom: 20px;
   left: 40px;
   right: 40px;
-  background-color: rgb(255 255 255 / 0.85);
+  background-color: var(--accent1-color);
   padding: 16px;
 }
 
