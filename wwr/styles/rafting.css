@@ -50,7 +50,7 @@ header {
   display: grid;
   grid-template-columns: 120px 1fr;
   align-items: center;
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
 }
 
 /* Style the logo */
@@ -120,7 +120,8 @@ header nav a {
 
 /* Style content sections */
 section {
-  background-color: var(--accent1-color);
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 /* Style the footer */
