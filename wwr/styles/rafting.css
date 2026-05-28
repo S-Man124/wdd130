@@ -68,7 +68,7 @@ header nav {
 
 /* Style navigation links */
 header nav a {
-  color: var(--primary-color);
+  color: white;
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
@@ -121,6 +121,10 @@ header nav a {
 /* Style content sections */
 section {
   background-color: var(--secondary-color);
+  color: white;
+}
+
+section h2 {
   color: white;
 }
 
