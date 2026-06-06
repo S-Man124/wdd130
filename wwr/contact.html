@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--
+  This tells the browser that this document uses HTML5
+-->
+<html lang="en-US">
+
+<head>
+  <!-- Character encoding -->
+  <meta charset="UTF-8">
+
+  <!-- Responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Page description -->
+  <meta name="description"
+    content="Contact White Water Rafting for reservations, inquiries, adventure bookings, and customer support.">
+
+  <!-- Author -->
+  <meta name="author" content="Sibusiso Manyoni">
+
+  <!-- Page title -->
+  <title>Contact Us | White Water Rafting</title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+  <!-- ============================= -->
+  <!-- HEADER SECTION -->
+  <!-- Contains logo and navigation -->
+  <!-- ============================= -->
+  <header>
+
+    <!-- Company logo -->
+    <img src="images/logo.jpg" alt="White Water Rafting Logo">
+
+    <!-- Navigation menu -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- ============================= -->
+  <!-- MAIN CONTENT SECTION -->
+  <!-- ============================= -->
+  <main>
+
+    <!-- Page heading -->
+    <h1>Contact Us</h1>
+
+    <!-- Company contact information -->
+    <section class="contact-info">
+
+      <h2>Company Information</h2>
+
+      <p><strong>Address:</strong> 123 River Rapids Road, Adventure Valley</p>
+
+      <p><strong>Phone:</strong> +27 11 555 1234</p>
+
+      <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+
+      <!-- Embedded Google Map -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.958431660841!2d28.0473057!3d-26.2041028"
+        width="100%" height="300" allowfullscreen="" loading="lazy">
+      </iframe>
+
+    </section>
+
+    <!-- Employee profiles -->
+    <section class="employees">
+
+      <h2>Meet Our Team</h2>
+
+      <figure>
+        <img src="images/client.jpg" alt="Operations Manager">
+        <figcaption>Sarah Johnson – Operations Manager</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/client.jpg" alt="Lead River Guide">
+        <figcaption>Michael Smith – Lead River Guide</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/client.jpg" alt="Customer Relations Specialist">
+        <figcaption>Emily Davis – Customer Relations Specialist</figcaption>
+      </figure>
+
+    </section>
+
+    <!-- Contact form -->
+    <section class="contact-form">
+
+      <h2>Send Us a Message</h2>
+
+      <form>
+
+        <!-- Name -->
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <!-- Email -->
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Purpose -->
+        <fieldset>
+
+          <legend>Purpose of Message</legend>
+
+          <label>
+            <input type="radio" name="purpose" value="general" checked>
+            General Inquiry
+          </label>
+
+          <label>
+            <input type="radio" name="purpose" value="reservation">
+            Reservation Question
+          </label>
+
+          <label>
+            <input type="radio" name="purpose" value="website">
+            Website Suggestion
+          </label>
+
+        </fieldset>
+
+        <!-- Message -->
+        <label for="message">Message</label>
+
+        <textarea id="message" name="message" rows="6"></textarea>
+
+        <!-- Newsletter -->
+        <label class="newsletter">
+
+          <input type="checkbox" name="subscribe">
+
+          Please subscribe me to the monthly newsletter
+
+        </label>
+
+        <!-- Submit button -->
+        <button type="submit">
+          Send Message
+        </button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <!-- ============================= -->
+  <!-- FOOTER SECTION -->
+  <!-- ============================= -->
+  <footer>
+
+    <!-- Copyright -->
+    <p>
+      &copy;2026 White Water Rafting | Sibusiso Manyoni
+    </p>
+
+    <!-- Social media links -->
+    <nav class="socialmedia">
+
+      <a href="https://facebook.com">
+        <img src="images/facebook.jpg" alt="Facebook">
+      </a>
+
+      <a href="https://instagram.com">
+        <img src="images/instagram.jpg" alt="Instagram">
+      </a>
+
+      <a href="https://twitter.com">
+        <img src="images/twitter.jpg" alt="Twitter">
+      </a>
+
+    </nav>
+
+  </footer>
+
+</body>
+
+</html>

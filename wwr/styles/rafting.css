@@ -147,3 +147,72 @@ footer {
   width: 32px;
   height: auto;
 }
+
+/* Contact page heading */
+main h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Contact information section */
+.contact-info {
+  background-color: var(--accent1-color);
+}
+
+/* Employee section */
+.employees {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* Employee images */
+.employees img {
+  width: 200px;
+  height: auto;
+  border: 2px solid var(--primary-color);
+}
+
+/* Contact form */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form labels */
+.contact-form label {
+  margin-top: 10px;
+}
+
+/* Form inputs */
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Fieldset styling */
+fieldset {
+  margin-top: 15px;
+  padding: 15px;
+}
+
+/* Newsletter checkbox */
+.newsletter {
+  margin-top: 15px;
+}
+
+/* Submit button */
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: var(--secondary-color);
+}
