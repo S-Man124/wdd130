@@ -216,3 +216,9 @@ button {
 button:hover {
   background-color: var(--secondary-color);
 }
+
+/* Google map */
+iframe {
+  width: 100%;
+  border: 0;
+}
